@@ -1,9 +1,9 @@
-package com.example.marvelapp.presentation.characters
+package com.example.marvelapp.presentation.characters.adapter
 
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.ListAdapter
+import com.example.marvelapp.presentation.characters.viewholder.CharactersViewHolder
 import com.lucascabral.core.domain.model.Character
 
 class CharactersAdapter : PagingDataAdapter<Character, CharactersViewHolder>(diffCallback) {
